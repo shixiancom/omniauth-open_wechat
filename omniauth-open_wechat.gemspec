@@ -6,14 +6,14 @@ Gem::Specification.new do |gem|
   gem.email         = ["747549945@qq.com"]
   gem.description   = %q{OmniAuth strategy for OpenWechat.}
   gem.summary       = %q{OmniAuth strategy for OpenWechat.}
-  gem.homepage      = "https://github.com/free1/omniauth-open_wechat"
+  gem.homepage      = "https://github.com/shixiancom/omniauth-open_wechat"
   gem.license       = "MIT"
 
   # gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.name          = "omniauth-open_wechat"
   gem.require_paths = ["lib"]
-  gem.version       = OmniAuth::OpenWechat::VERSION
+  gem.version       = "0.0.3"
 
   gem.add_dependency 'omniauth', '~> 1.0'
   gem.add_dependency 'omniauth-oauth2', '>= 1.1.1', '< 2.0'
